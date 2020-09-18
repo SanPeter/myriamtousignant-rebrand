@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 
 const Header = tw.header`
-  border-b
+  border-b bg-gray-300 bg-opacity-50
 `;
 
 const HeaderNav = ({ children }) => (
