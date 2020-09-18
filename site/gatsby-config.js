@@ -5,5 +5,10 @@
  */
 
 module.exports = {
-  plugins: [],
+  plugins: [
+    {
+      resolve: "gatsby-plugin-emotion",
+      options: {},
+    },
+  ],
 };
