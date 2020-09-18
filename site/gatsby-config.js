@@ -10,5 +10,20 @@ module.exports = {
       resolve: "gatsby-plugin-emotion",
       options: {},
     },
+    {
+      resolve: "gatsby-plugin-postcss",
+      options: {},
+    },
+    {
+      resolve: "gatsby-plugin-prefetch-google-fonts",
+      options: {
+        fonts: [
+          {
+            family: "Roboto",
+            variants: ["700"],
+          },
+        ],
+      },
+    },
   ],
 };
