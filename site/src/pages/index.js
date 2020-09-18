@@ -31,7 +31,7 @@ const SectionLink = tw.a`
 
 const SectionContainer = ({ children }) => (
   <Section>
-    <SectionLink>{children}</SectionLink>
+    <SectionLink href="#">{children}</SectionLink>
   </Section>
 );
 
